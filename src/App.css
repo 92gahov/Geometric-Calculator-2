@@ -1,0 +1,194 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(197, 193, 193);
+  padding: 18px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #f1356d;
+}
+
+.main {
+  margin-top: 12px;
+}
+
+.main h2 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #f1356d;
+}
+
+.main h3 {
+  font-size: 24px;
+  color: #f1356d;
+}
+
+.main p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shape-main {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 16px auto 0 auto;
+}
+
+.shape {
+  width: 50%;
+}
+
+.info {
+  width: 50%;
+}
+
+.info p {
+  font-size: 16px;
+}
+
+.form-main {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 16px auto 0 auto;
+}
+
+.form-calc {
+  width: 50%;
+}
+
+.form-calc input {
+  width: 90px;
+  height: 24px;
+  font-size: 16px;
+  padding: 2px 6px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.form-calc sup {
+  color: red;
+  font-size: 18px;
+}
+
+.result {
+  width: 50%;
+}
+
+.result input {
+  width: 130px;
+  height: 24px;
+  font-size: 16px;
+  padding: 2px 6px;
+  border: none;
+  border-bottom: 3px solid black;
+  background: none;
+}
+
+.round input {
+  width: 60px;
+  height: 24px;
+  font-size: 16px;
+  padding: 2px 6px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+.form button {
+  font-size: 16px;
+  width: 80px;
+  padding: 6px;
+  margin-left: 14px;
+  background-color: #dcdcde;
+  border: 2px solid black;
+}
+
+.form button:hover {
+  background-color: #3c434a;
+  cursor: pointer;
+  color: white;
+}
+
+.footer {
+  background-color: rgb(197, 193, 193);
+  padding: 8px 0;
+  margin-top: 22px;
+}
+
+.author p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.author a {
+  color: black;
+}
+
+.author a:hover {
+  color: #f1356d;
+}
+
+.errMsg {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: block;
+  }
+
+  .shape-main {
+    display: block;
+  }
+
+  .shape {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .form-main {
+    display: block;
+    width: 100%;
+  }
+
+  .form-calc {
+    width: 100%;
+  }
+
+  .result {
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+
+  .round {
+    margin-bottom: 26px;
+  }
+}
